@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js --dir static --open --live"
+    "start": "budo index.js:bundle.js --dir static --open --live --host localhost"
   },
   "author": "",
   "license": "ISC",
