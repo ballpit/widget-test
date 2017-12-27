@@ -1,4 +1,4 @@
-var netlifyIdentity = window.netlifyIdentity
+var netlifyIdentity = require('./netlify-identity')
 
 console.log(netlifyIdentity)
 
