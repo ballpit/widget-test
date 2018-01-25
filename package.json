@@ -7,7 +7,7 @@
     "start": "budo index.js:bundle.js --dir static --open --live --host localhost",
     "clean": "rimraf dist",
     "build": "run-s clean && mkdirp dist && run-p build:*",
-    "build:js": "browserify index.js -o dist/bundle.js",
+    "build:js": "browserify --dev index.js -o dist/bundle.js",
     "build:static": "cpr static/ dist/"
   },
   "author": "",
