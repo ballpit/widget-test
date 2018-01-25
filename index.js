@@ -13,7 +13,7 @@ console.log(netlifyIdentity)
  netlifyIdentity.on('init', user => console.log(user))
  netlifyIdentity.on('login', login => console.log(user))
  netlifyIdentity.on('logout', () => console.log("Logged out"))
- netlifyIdentity.on('error', err => console.error("Logged out"))
+ netlifyIdentity.on('error', err => console.error(err))
  netlifyIdentity.on('open', () => console.log("Widget opened"))
  netlifyIdentity.on('close', () => console.log("Widget closed"))
 
